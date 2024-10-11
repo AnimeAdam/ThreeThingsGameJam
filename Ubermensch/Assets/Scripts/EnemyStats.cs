@@ -12,6 +12,7 @@ public class EnemyStats : MonoBehaviour
 
     public int maxHealth = 3;
     public int currentHealth;
+    public float movementSpeed = 2f;
     public EnemyType enemyType;
 
     // Start is called before the first frame update
