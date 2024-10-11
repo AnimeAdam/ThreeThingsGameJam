@@ -20,4 +20,5 @@ public class EnemyKillSelf : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
 }
