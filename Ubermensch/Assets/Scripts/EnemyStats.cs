@@ -4,17 +4,10 @@ using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
 {
-    public enum EnemyType{
-        Mage,
-        Warrior,
-        Soldier,
-        PlayerTroops
-    }
-
     public int maxHealth = 3;
     public int currentHealth;
     public float movementSpeed = 2f;
-    public EnemyType enemyType;
+    public UnitType enemyType;
 
     // Start is called before the first frame update
     void Start()
