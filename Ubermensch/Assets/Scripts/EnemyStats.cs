@@ -7,7 +7,8 @@ public class EnemyStats : MonoBehaviour
     public enum EnemyType{
         Mage,
         Warrior,
-        Soldier
+        Soldier,
+        PlayerTroops
     }
 
     public int maxHealth = 3;

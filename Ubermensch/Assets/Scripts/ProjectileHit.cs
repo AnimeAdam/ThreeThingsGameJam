@@ -22,7 +22,7 @@ public class ProjectileHit : MonoBehaviour
         { 
             collision.gameObject.SendMessage("ApplyDamage", 1);
             DestoryThisProjectile();
-        } 
+        }
     }
 
     void DestoryThisProjectile()
